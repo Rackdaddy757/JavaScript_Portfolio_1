@@ -1,0 +1,17 @@
+/* CSS HSL Color Palette 
+    --honeydew: hsla(124, 39%, 93%, 1);
+    --dark-moss-green: hsla(99, 37%, 28%, 1);
+    --oxford-blue: hsla(209, 100%, 8%, 1);
+    --blood-red: hsla(3, 100%, 21%, 1);
+    --saffron: hsla(48, 96%, 45%, 1);\
+    */
+#aboutMeParagraph {
+    background-color: hsla(3, 100%, 21%, 1);
+    color: hsla(124, 39%, 93%, 1);
+}
+
+p {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.25;
+}

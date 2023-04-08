@@ -7,17 +7,18 @@ workArea.appendChild(workButton);
 workButton.addEventListener("click", addWorks);
 
 function addWorks() {
-    const randomMessageGenerator= document.createElement("a"); //Creates a link that holds the function to open the works page
-    randomMessageGenerator.setAttribute("class", "workLinks"); //Groups work links together so that they can be styled as one
+    const worksLocation= document.createElement("a"); //Creates a link that holds the function to open the works page
+    worksLocation.setAttribute("class", "workLinks"); //Groups work links together so that they can be styled as one
     const generatorWords = document.createTextNode(`Random Message Generator`);
-    randomMessageGenerator.appendChild(generatorWords);
-    workButton.appendChild(randomMessageGenerator);
-    randomMessageGenerator.addEventListener("click", toMessages);
+    worksLocation.appendChild(generatorWords);
+    workButton.appendChild(worksLocation);
+    worksLocation.addEventListener("click", toMessages);
 }
 
 
 function toMessages () {
-    window.location.href= "./messageGenerator/randomMessages.html";
+   window.location.href= "./messageGenerator/randomMessages.html";
+    
 }
 
 

@@ -1,5 +1,14 @@
+/* CSS HSL Color Palette 
+--honeydew: hsla(124, 39%, 93%, 1);
+--dark-moss-green: hsla(99, 37%, 28%, 1);
+--oxford-blue: hsla(209, 100%, 8%, 1);
+--blood-red: hsla(3, 100%, 21%, 1);
+--saffron: hsla(48, 96%, 45%, 1);\
+*/
+
+
 body {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -10,7 +19,7 @@ body {
 }
 
 main{
-    width: 70vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,13 +28,17 @@ main{
 
 #main-container{
     width: 100vw;
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    background-color: hsla(3, 100%, 21%, 1);
+    color: hsla(124, 39%, 93%, 1);
+    
 }
 
 #pageInfo {
     width: 70%;
+    
 }
 
 
