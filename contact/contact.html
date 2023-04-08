@@ -1,0 +1,81 @@
+<!DOCtype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>  
+        <link rel="stylesheet" href="../style.css"> 
+    </head>
+    <body>
+        <header>
+            <h1>Contact</h1>
+            <nav id="navlist">
+                    <a class="nav-item" id="home" href="../home/home.html">Home</a>
+                    <a class="nav-item" id="aboutMe" href= "../aboutme/aboutme.html">About Me</a>
+                    <a class="nav-item" id="works" href="../works/works.html">Works</a>
+                    
+            </nav>
+
+        </header>
+        <main>
+            <p>Test language to make sure the page and link to page works</p>
+            <!--Link for Github profile-->
+            <!--Link for LinkedIn Page-->
+            <!--Example Address, Number & email address-->
+            <section>
+                <form id="testform1" action="./index.html" method="post">
+                    <h1>Website Feedback</h1>
+                    <label for="user-name">Name</label>
+                    <br>
+                    <input type="text" name="user-name" id="user-name">
+                    <br>
+        
+                    <label for="phoneNumber">Phone Number</label>
+                    <br>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" minlength= 10 maxlength = 15 required>
+                    <span>Please enter fake number</span>
+                    <br>
+        
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                    <span>Please enter fake email address</span>
+                    <br>
+        
+                    <label for="satisfaction">Satisfacation Level</label>
+                    <br>
+                    <small>Not Satisfied</small>
+                    <input type="range" name="range" id="range" min="0" max="10" step="1">
+                    <small>Highly Satisfied</small>
+                    <br>
+        
+                    <p>How Likely Would You Refer This Website</p>
+                    <input type="radio" id="Absolutely" name="howLikely" value="Absolutely">
+                    <label for="Absolutely">Absolutely</label>
+                    <br>
+                    <input type="radio" id="Likely" name="howLikely" value="Likely">
+                    <label for="Likely">Likely</label>
+                    <br>
+                    <input type="radio" id="Maybe" name="howLikely" value="Maybe">
+                    <label for="Maybe">Maybe</label>
+                    <br>
+                    <input type="radio" id="notLikely" name="howLikely" value="NotLikely">
+                    <label for="NotLikely">NotLikely</label>
+                    <br>
+                    <input type="radio" id="Never" name="howLikely" value="Never">
+                    <label for="Never">Never</label>
+                    <br>
+                    <br>
+        
+                    <label for="textbox">What was your experience like?</label>
+                    <br>
+                    <textarea id="textbox" name="textbox" rows="7" columns="5"></textarea>
+            </section>
+        </main>
+        <footer>
+                    <a id="home" href="../home/home.html">Home</a>
+                    <a id="aboutMe" href= "../aboutme/aboutme.html">About Me</a>
+                    <a id="works" href="../works/works.html">Works</a>
+
+        </footer>
+    </body>
+    </html>

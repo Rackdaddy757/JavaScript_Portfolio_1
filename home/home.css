@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+}
+
+
+#home {
+    float: left;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+main{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#pageInfo {
+    width: 70%;
+}
+
+

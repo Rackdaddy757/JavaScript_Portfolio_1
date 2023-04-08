@@ -1,0 +1,12 @@
+main a{
+    padding: 20px;
+    color: red;
+    border: 1px solid black;
+    font-weight: bold;
+}
+main a:hover {
+    color: black;
+}
+main a:active{
+    color: pink;
+}
